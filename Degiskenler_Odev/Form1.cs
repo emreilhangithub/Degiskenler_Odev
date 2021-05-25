@@ -60,5 +60,19 @@ namespace Degiskenler_Odev
             MessageBox.Show(ortalama.ToString());
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int sayi1, sayi2, sayi3, toplama, cikartma, carpma;
+            sayi1 = Convert.ToInt16(textBox7.Text);
+            sayi2 = Convert.ToInt16(textBox8.Text);
+            sayi3 = Convert.ToInt16(textBox9.Text);
+            toplama = sayi1 + sayi2 + sayi3;
+            cikartma = (sayi1 - sayi2) - sayi3;
+            carpma = sayi1 * sayi2 * sayi3;
+            MessageBox.Show("Toplama = " + toplama + "\n" +
+                "Cıkartma = " + cikartma + "\n" +
+                "Çarpma = " + carpma + "\n");
+        }
     }
 }

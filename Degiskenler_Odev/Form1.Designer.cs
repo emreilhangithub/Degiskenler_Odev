@@ -47,6 +47,14 @@ namespace Degiskenler_Odev
             this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -102,7 +110,7 @@ namespace Degiskenler_Odev
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(6, 279);
+            this.button2.Location = new System.Drawing.Point(33, 301);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(222, 30);
             this.button2.TabIndex = 6;
@@ -112,7 +120,7 @@ namespace Degiskenler_Odev
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(117, 230);
+            this.textBox3.Location = new System.Drawing.Point(144, 252);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 26);
             this.textBox3.TabIndex = 9;
@@ -120,7 +128,7 @@ namespace Degiskenler_Odev
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 233);
+            this.label4.Location = new System.Drawing.Point(40, 255);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 20);
             this.label4.TabIndex = 8;
@@ -129,7 +137,7 @@ namespace Degiskenler_Odev
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(2, 206);
+            this.label5.Location = new System.Drawing.Point(29, 228);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(231, 20);
             this.label5.TabIndex = 7;
@@ -202,11 +210,86 @@ namespace Degiskenler_Odev
             this.label9.TabIndex = 16;
             this.label9.Text = "s3";
             // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(456, 341);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 26);
+            this.textBox7.TabIndex = 25;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(352, 344);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(45, 20);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "sayi3";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(456, 256);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(100, 26);
+            this.textBox8.TabIndex = 23;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(456, 295);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 26);
+            this.textBox9.TabIndex = 22;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(352, 301);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(45, 20);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "sayi2";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(360, 256);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(45, 20);
+            this.label12.TabIndex = 20;
+            this.label12.Text = "sayi1";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(345, 393);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(222, 30);
+            this.button4.TabIndex = 19;
+            this.button4.Text = "Hesapla";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(341, 219);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(115, 20);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "3 İşlem Yapma";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox4);
@@ -252,6 +335,14 @@ namespace Degiskenler_Odev
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label13;
     }
 }
 
