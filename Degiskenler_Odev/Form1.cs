@@ -16,5 +16,21 @@ namespace Degiskenler_Odev
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int kisakenar, uzunkenar, alan, cevre;
+            kisakenar = Convert.ToInt16(textBox1.Text);
+            uzunkenar = Convert.ToInt16(textBox2.Text);
+            cevre = (kisakenar + uzunkenar) * 2;
+            alan = kisakenar * uzunkenar;
+
+            MessageBox.Show("Kısa Kenar = " + kisakenar + "\n" +
+                "Uzun Kenar = " + uzunkenar + "\n" +
+                "Cevre = " + cevre + "\n" +
+                "Alan = " + alan + "\n" 
+                );
+
+        }
     }
 }
