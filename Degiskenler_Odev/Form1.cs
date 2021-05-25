@@ -49,5 +49,16 @@ namespace Degiskenler_Odev
                 "Alan = " + alan + "\n" 
                 );
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int s1, s2, s3,ortalama;
+            s1 = Convert.ToInt16(textBox4.Text);
+            s2 = Convert.ToInt16(textBox5.Text);
+            s3 = Convert.ToInt16(textBox6.Text);
+            ortalama = (s1 + s2 + s3) / 3;
+            MessageBox.Show(ortalama.ToString());
+
+        }
     }
 }
