@@ -32,5 +32,22 @@ namespace Degiskenler_Odev
                 );
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //klavyeden yarı çapı girilen çemberin alan ve çevresini hesaplayan program
+            double pi,yaricap, alan, cevre;           
+
+            yaricap = Convert.ToInt16(textBox3.Text);
+            pi = 3.14;
+            cevre = 2 * pi * yaricap;
+            alan = pi * (yaricap * yaricap);
+
+            MessageBox.Show("Yarı Cap = " + yaricap + "\n" +
+                "Pi = " + pi + "\n"+
+                "Cevre = " + cevre + "\n" +
+                "Alan = " + alan + "\n" 
+                );
+        }
     }
 }
